@@ -21,7 +21,7 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = '4278286130';
+    var serviceWorkerVersion = '3210002088';
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
@@ -73,18 +73,6 @@
         }
       });
     });
-  </script>
-  <script>
-    if (window.location.protocol !== 'http:' && window.location.protocol !== 'https:') {
-      window.location.href = window.location.href.replace(window.location.protocol, 'https:');
-    }
-    window.onload = function () {
-      if (window.location.hash.length > 0) {
-        var hash = window.location.hash.substring(1);
-        var url = new URL(hash, window.location.href);
-        window.location.href = url.href;
-      }
-    };
   </script>
 </body>
 </html>
