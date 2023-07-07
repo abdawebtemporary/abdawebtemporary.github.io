@@ -81772,7 +81772,7 @@ case 5:return A.O(null,r)
 case 1:return A.N(p,r)}})
 return A.P($async$ty,r)},
 aJ(){this.aZ()
-this.ty(J.b4(this.a.e,0))},
+this.ty(J.b4(this.a.e,1))},
 J(a){var s,r,q,p,o,n=this,m=null,l=A.ary("Camera Preparation",A.ld(m,m,B.hM,m,new A.aky(a),m,m)),k=$.bd.U(),j=$.kl.U(),i=$.bd.U(),h=n.w
 h===$&&A.b()
 h=h.a.a?new A.HU(h,m):B.Aj
@@ -81803,7 +81803,7 @@ A.akz.prototype={
 $0(){var s,r=this.a
 r.av(new A.akx(r))
 s=r.a.e
-r.ty(J.b4(s,r.x?0:1))
+r.ty(J.b4(s,r.x?1:0))
 A.eo().$1(J.b4(r.a.e,0).a)
 A.eo().$1(J.b4(r.a.e,0).b.b)
 A.eo().$1(""+J.b4(r.a.e,0).c)},
